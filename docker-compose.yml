@@ -1,0 +1,12 @@
+services:
+  run-tests:
+    build: .
+    volumes:
+      - .:/app
+    command: pytest -q
+
+  run-method:
+    build: .
+    volumes:
+      - .:/app
+    command: python single_element.py 1 2 3 4 3 1 2
