@@ -1,4 +1,3 @@
-to_be_ignored.txt
 __pycache__/
 .pytest_cache/
 *.pyc
